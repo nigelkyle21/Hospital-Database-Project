@@ -1,13 +1,10 @@
-# SOEN 363 – Hospital Database Project  
+# Hospital Database Project  
 *A complete relational and NoSQL data modeling project*
 
 This repository contains my SOEN 363 (Database Systems) term project at Concordia University.  
 It demonstrates SQL relational modeling, ERD design, analytical querying, NoSQL document modeling, and a Python migration script that transforms data from a relational database into MongoDB documents.
 
 This project models a simplified hospital information system, including patients, stays, diagnoses, and medical events.
-
----
-
 
 ---
 
@@ -73,11 +70,3 @@ This shows how schema migration works in real-world systems.
 - Shows flattening of relational joins into nested JSON  
 - Realistic pipeline similar to ETL processes  
 
----
-
-## 🚀 Running the Migration Script
-
-### 1. Create and activate a Python virtual environment
-```bash
-python3 -m venv venv
-source venv/bin/activate
